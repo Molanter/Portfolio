@@ -1,0 +1,137 @@
+/*font-family: 'Stick No Bills', sans-serif;
+font-family: 'Tourney', cursive;
+font-family: 'Zen Tokyo Zoo', cursive;*/
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.ul_line{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+    font-size: 20px;
+    width: 90%;
+    padding-left: 5%;
+
+}
+.border_bottom{
+    border-bottom: 10px;
+}
+.li_line{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    justify-content: space-between;
+}
+menu {
+    padding-left: 33px;
+    padding-right: 33px;
+    margin: 0;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: midnightblue;
+
+}
+.bg_body{
+    background-color: rgb(179, 179, 179);
+    width: 90%;
+    margin-left: 5%;
+    height: 387px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}
+.prog_icon{
+    width: 80px;
+}
+.ul_skils{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.a_header{
+    text-decoration: none;
+    font-size: 28px;
+
+}
+.li_skils{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: midnightblue;
+
+}
+.padding_skils{
+    padding-bottom: 40px;
+}
+.pad_righ{
+    padding-right: 80px;
+}
+.skils_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+.ampli_a{
+    text-decoration: none;
+}
+#bg_photo{
+    width: 90%;
+    padding-left: 5%;
+}
+.cont{
+    position: relative;
+    width: 100%;
+
+}
+.h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.div_{
+    margin: 0px;
+}
+.sp_works{
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 18px;
+}
+footer{
+    background-color: rgb(179, 179, 179);
+    width: 90%;
+    margin-left: 5%;
+}
+.foot_img{
+    width: 25px;
+}
+.ul_foot{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+.li_foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40px;
+}
+.span_foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
