@@ -1,7 +1,46 @@
 /*font-family: 'Stick No Bills', sans-serif;
 font-family: 'Tourney', cursive;
 font-family: 'Zen Tokyo Zoo', cursive;*/
+/*
+255, 223, 43 Yellow
+255, 153, 0 orange
+166, 166, 166 gray
+*/
 
+html{
+    background-color: rgb(166, 166, 166);
+}
+.anim_ab:hover{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.wid_ab{
+    height: 30px;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    width: 85%;
+    margin-left: 7.5%;
+
+}
+.anim_a:hover{
+    font-size: 40px;
+    color: rgb(255, 223, 43);
+}
+.wid_a{
+    height: 50px;
+}
+.hh{
+color: rgb(255, 223, 43);
+font-family: 'Stick No Bills', sans-serif;
+letter-spacing: 1px;
+font-weight: bold;
+}
+.h{
+    font-family: 'Tourney', cursive;
+    color: rgb(255, 223, 43);
+    font-size: 36px;
+}
 body {
     padding: 0;
     margin: 0;
@@ -35,23 +74,44 @@ menu {
     padding-right: 33px;
     margin: 0;
     font-family: 'Zen Tokyo Zoo', cursive;
-    color: midnightblue;
+    color: rgb(255, 223, 43);
 
 }
 .bg_body{
-    background-color: rgb(179, 179, 179);
+    margin-left: 5%;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 223, 43);
+
+}
+.body_colon{
+    padding-top: 30px;
     width: 90%;
     margin-left: 5%;
     height: 387px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 10px;
     font-size: 20px;
+    line-height: 30px;
+    color: rgb(255, 223, 43);
 
+}
+.ab_me{
+    color: rgb(255, 223, 43);
+    border-color: rgb(0, 0, 0);
+    border-top: 1px;
+    border-bottom: 1px;
+}
+.ab_me.li{
+    color: rgb(255, 223, 43);
+    
 }
 .prog_icon{
     width: 80px;
+}
+.prog_icon_g{
+    width: 90px;
 }
 .ul_skils{
     list-style-type: none;
@@ -62,7 +122,9 @@ menu {
 }
 .a_header{
     text-decoration: none;
-    font-size: 28px;
+    font-size: 36px;
+    color: rgb(255, 153, 0);
+
 
 }
 .li_skils{
@@ -70,7 +132,7 @@ menu {
     flex-direction: column;
     align-items: center;
     font-size: 18px;
-    color: midnightblue;
+    color: rgb(255, 223, 43);
 
 }
 .padding_skils{
@@ -79,14 +141,32 @@ menu {
 .pad_righ{
     padding-right: 80px;
 }
+.skils_center_a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+}
 .skils_center{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 25px;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.skils_center_{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
 }
 .ampli_a{
     text-decoration: none;
+    color: rgb(255, 153, 0);
 }
 #bg_photo{
     width: 90%;
@@ -107,16 +187,16 @@ menu {
 }
 .sp_works{
     text-decoration: none;
-    color: midnightblue;
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 footer{
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(0, 0, 0);
     width: 90%;
     margin-left: 5%;
 }
 .foot_img{
-    width: 25px;
+    width: 30px;
 }
 .ul_foot{
     list-style: none;
@@ -134,4 +214,58 @@ footer{
     flex-direction: column;
     align-items: center;
     font-size: 18px;
+    padding-top: 10px;
+    color: rgb(255, 223, 43);
+
+}
+.sp_be{
+    padding-bottom: 10px;
+}
+.st_s{
+    color: rgb(0, 0, 0);
+}
+
+.fonts_1{
+    font-size: 36px;
+    font-family: 'Stick No Bills', sans-serif;
+    display: flex;
+
+}
+.fonts_2{
+    font-size: 36px;
+    font-family: 'Tourney', cursive;
+    display: flex;
+}
+.fonts_3{
+    font-size: 36px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    display: flex;
+
+}
+.anim:hover{
+    width: 100px;
+    height: 100px;
+    transform: rotate(20deg);
+}
+.anim_font:hover{
+    font-size: 48px;
+    color: rgb(255, 223, 43);
+}
+.wid_icon{
+    height: 110px;
+    width: 110px;
+}
+.fonts_pad{
+    display: flex;
+    padding-left: 25%;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+}
+.anim_big:hover{
+    font-size: 36px;
+    color: rgb(255, 153, 0);
+}
+.wid_big{
+    height: 40px;
 }
